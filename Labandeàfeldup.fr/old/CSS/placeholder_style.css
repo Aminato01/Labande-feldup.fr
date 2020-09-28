@@ -1,0 +1,193 @@
+@font-face
+{
+    font-family: 'Quicksand';
+    src: url('../RESSOURCES/polices/Quicksand-Regular.otf');
+
+    font-style: normal;
+}
+
+
+*
+{
+	font-family:"Quicksand", arial, sans-sérif;
+}
+
+
+
+
+
+/* The page */
+
+#blocPage
+{
+	width: 1200px;
+	margin: auto;
+
+}
+
+
+body
+{ 
+
+	background: #bb5b11;
+}
+
+p
+{
+	font-size: 1.1em;
+}
+
+h2
+{
+	font-size:1.6em;
+}
+
+
+/* The page */
+
+
+/* TOP */
+
+#blocLogoTitle
+{
+	background: green;
+	text-align: center;
+	width: 20%;
+	height: 20%;
+}
+
+
+header
+{
+	display: flex;
+	flex-direction: column;
+}
+
+header ul
+{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	right: 40px;
+	width: 1200px;
+	bottom: 16px;
+}
+
+header li
+{
+	background: black;
+	width: 300px;
+	height: 40px;
+	padding-top: 20px;
+	list-style-type: none;
+	text-align: center;
+	background: url("../RESSOURCES/images/testf.jpg");	
+}
+
+
+#rightLi
+{
+	position: relative;
+		right: 4px;
+}
+
+
+header li:hover
+{
+	background: yellow;
+}
+
+header a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	font-size: 	1.3em;
+}
+
+#logoBaf
+{
+	background: url("../RESSOURCES/images/baf_logo.png");
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	position: relative;
+	bottom: 10px;
+	border: 1px black solid;
+	box-shadow: 1px 1px 2px;
+
+}
+
+nav
+{
+	height: 60px;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+	border-top: 2px black solid;
+}
+
+/* TOP */
+
+/* MID */
+
+section
+{
+	display: flex;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+	background: #EA7823;
+}
+
+article
+{
+	background: grey;
+	margin-top: 20px;
+	border: 2px black solid;
+	border-radius: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+article h2
+{
+	text-align: center;
+}
+
+aside
+{
+	width: 400px;
+	margin-top: 20px;
+	border: 2px black solid;
+	border-radius: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: green;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+aside p
+{
+	word-wrap: break-word;
+}
+
+aside h2
+{
+	text-align: center;
+}
+
+/* MID */
+
+/* BOT */
+
+footer
+{
+	background: #EA7823;
+	text-align: center;
+	border: 2px black solid;
+}
+
+/* BOT */
