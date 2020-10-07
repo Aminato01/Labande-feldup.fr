@@ -47,7 +47,6 @@ html
 }
 
 
-
 #blocPage
 {
     width: 1400px;
@@ -59,16 +58,13 @@ html
     background: white;
 }
 
+
+
+
 /* PAGE */
 
 
 /* HEADER */
-
-@media only screen and (max-width: 720px) {
-    header {
-        position: absolute;
-    }
-}
 
 #Vidéos
 {
@@ -176,19 +172,334 @@ header ul li
 /* HEADER */
 
 
-/* SECTION */
-section h2
+/* SECTION TOP */
+#secTop h2
 {
-    margin-top: 150px;
+    margin-top: 60px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Orkney';
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-align: left;
 }
 
-section
+section img
 {
-    height: 1200px;
+    height: 300px;
+    width: 300px;
+}
+
+#secTop
+{
+    padding-bottom: 50px;
+}
+
+#topPage
+{
+    display: flex;
+    margin-top: 130px;
+    width: 1000px;
+    margin-left: 160px;
 }
 
 
-/* SECTION */
+#titleTextBaf
+{
+    width: 550px;
+    word-wrap: break-word;
+    text-align: justify;
+
+}
+
+p, #secContenu a, #secContenu aside
+{
+    font-family: 'open_sansregular';
+}
+    
+section p
+{
+    font-size: 1.5em;
+}
+
+/* SECTION TOP */
+
+
+/* SECTION MID*/
+
+#secMid iframe
+{
+    margin-left: 240px;
+}
+
+#secMid
+{
+   margin-left: 50px;
+
+   padding-bottom: 200px;
+   height: 620px;
+}
+
+#secMid h2
+{
+    margin-left: 160px;
+    font-size: 1.8em;
+    font-family: 'Orkney';
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+#midTitleText
+{
+    display: flex;
+    margin-top: 35px;
+}
+
+#midTitleText p
+{
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+#midTitleText img
+{
+    float: right;
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+
+/* SECTION MID*/
+
+
+/* SECTION CONTENU */
+
+
+#secContenu h2
+{
+    font-size: 2em;
+    font-family: 'Orkney';
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+
+#secContenu li
+{
+    list-style: none;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+#secContenu li a
+{
+    font-size: 1.7em;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    background: url(../../RESSOURCES/images/flecheN2.png) left center no-repeat;
+}
+
+#secContenu ul
+{
+   text-transform: uppercase;
+}
+
+
+
+
+
+#secContenu li a:focus
+{
+    padding-left: 30px;
+    background: url(../../RESSOURCES/images/flecheN.png) left center no-repeat;
+}
+
+#secContenu li a:hover
+{
+    border-bottom: #FF9048 1px solid;
+    border-left: #FF9048 1px solid;
+    border-width: 3px;
+}
+
+
+li img{
+
+    height: 30px;
+    width: 30px;
+}
+
+#secContenu li 
+{
+    display: flex;
+}
+
+
+
+
+
+
+img[alt="image de croix"]
+{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 720px;
+
+}
+
+
+
+
+.LyessEtMasch
+{
+    display: flex;
+    width: 200px; 
+    text-align: left;
+}
+
+#disqu-utons figcaption
+{
+    margin-left: 20px;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.Lyess{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: url("../../RESSOURCES/images/lyessMini.jpg");
+
+}
+
+.Masch{
+    background: url("../../RESSOURCES/images/maschMini.jpg");
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.modal p
+{
+    text-align: justify;
+    width: 250px;
+    height: 160px;
+    font-size: 1.1em;
+
+}
+
+#disqu-utons
+{
+    display: flex;
+}
+
+#disqu-utons iframe
+{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+
+/* ///////////////  */
+
+
+.TataEtLooking
+{
+    display: flex;
+    width: 200px; 
+    text-align: left;
+}
+
+#analyses-mus figcaption
+{
+    font-size: 0.9em;
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+.Tata{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: url("../../RESSOURCES/images/TataAliMini.jpg");
+
+}
+
+.Looking{
+    background: url("../../RESSOURCES/images/lookingMini.jpg");
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#analyses-mus
+{
+    display: flex;
+}
+
+#analyses-mus iframe
+{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+
+/* ///////////////  */
+
+
+
+/* SECTION CONTENU */
+
+
+
+
+
+
+
+
+/* ATTENTIONNNN */
+
+
+.modal
+{
+
+
+    width: 750px;
+    height: 100%;
+    margin-left: 80px;
+    position: relative;
+    bottom: 20px;
+    border-left: #FF9048 5px solid;
+    padding-left: 25px;
+
+}
+
+
+
+
+.modal-wrapper
+{
+    width: 750px;
+    overflow: auto;
+}
+
+
+/* ATTENTIONNNN */
+
+
+
+
+
+
+
+
+
